@@ -1,0 +1,381 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d1dc4f+0,d3db60+45,d4d8a0+100 */
+   
+    background-color: white;
+    font-family: 'Verdana';font-size: 1em;
+    color: lightslategrey;
+    margin: 0px auto;
+    max-width: 100%;
+    max-height: 100%;
+ 
+}
+
+.homeText {
+
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    
+}
+
+#bia, #myself {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+     
+}
+
+#biaPic {
+  
+    margin-left: 400px;
+    width: 600px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#biaPic:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-container {
+    margin: 0px auto;
+    max-width: 100%;
+    max-height: 100%;
+     
+}
+
+#home{
+    
+   width: 100vw;
+    height: 100vh;
+}
+
+header{
+    margin:0;
+    position:fixed;
+}
+
+nav {
+    background-color: #d1dc4f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:100vw;
+    width:60px;
+  
+
+}
+
+#logo{
+    width: 90px;
+    cursor: pointer;
+    margin-left: -20px;
+ 
+ 
+} 
+
+#one{
+    margin: 15px;
+    background-color: #d1dc4f;
+    border-radius: 40px;
+    margin-top: 3px;
+    width: 120px;
+}
+
+#two{
+    margin: 15px;
+    background-color: #d1dc4f;
+    border-radius: 40px;
+    margin-top: 3px;
+    width: 120px;
+}
+
+#three{
+    margin: 15px;
+    background-color: #d1dc4f;
+    border-radius: 40px;
+    margin-top: 3px;
+    width: 120px;
+}
+
+#four{
+    margin: 15px;
+    background-color: #d1dc4f;
+    border-radius: 40px;
+    margin-top: 3px;
+    width: 120px;
+}
+
+#five{
+    margin: 15px;
+    background-color: #d1dc4f;
+    border-radius: 40px;
+    margin-top: 3px;
+    width: 120px;
+}
+
+#six{
+    margin: 15px;
+    background-color: #d1dc4f;
+    border-radius: 40px;
+    margin-top: 3px;
+    width: 120px;
+}
+
+
+.text{
+    text-align:center;
+    color:white;
+    font-size:1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* #32fdfb */
+
+
+#about {
+    
+    height: 100vh;
+    padding-left: 200px;
+    padding-top: 50px;
+    
+
+}
+
+.aboutBox{
+    margin-top: -5px;
+}
+
+#zahaPic{
+    margin-top: -5%;
+    width: 1000px;
+    height: 300px;
+    
+}
+
+#webPic{
+    margin-right: 100px;
+    width: 500px;
+    float: right;
+}
+
+
+#blog {
+    
+    height: 100vh;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+.blogBox{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.arch  {
+    width:50%;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 0;
+}
+
+.web {
+    width:50%;
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 0;
+
+}
+
+.webVideo{
+    width: 800px;
+    height: 400px;
+}
+
+.archVideo{
+    width: 800px;
+    height: 400px;
+}
+
+
+
+#hobbies {
+    
+    height: 100vh;
+    padding-left: 200px;
+    padding-top: 50px;
+
+}
+
+.hobbieBox {
+    margin-top: 5%;
+}
+
+
+@keyframes carousel {
+   0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+
+/*------------------------------------*\
+    $CAROUSEL
+\*------------------------------------*/
+.carousel{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    width:50%;
+     
+}
+.panes{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+    width:500%; 
+    overflow:hidden;  
+        
+    -moz-animation:carousel 30s infinite;
+    -webkit-animation:carousel 30s infinite;
+    animation:carousel 30s infinite;
+}
+.panes > li{
+    position:relative;
+    float:left;
+    width:20%;  
+}
+.carousel img{
+    display:block;
+    width:100%;
+    max-width:100%;
+}
+.carousel h2{
+     
+    font-size:2rem;
+    padding:0.5em;
+    position:absolute;
+    right:20px;
+    bottom:10px;
+    left:20px;
+    text-align:center;
+    color:#fff;
+   
+    background-color:#d1dc4f;
+}
+
+
+
+
+
+
+
+
+#contact {
+    height: 100vh;
+    padding-left: 200px;
+    padding-top: 50px;
+
+}
+
+
+ 
+  #form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+  }
+  
+  input {
+    font-family: 'Verdana';
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #726659;
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+   
+  }
+  
+  input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+  }
+  
+  textarea {
+    font-family: 'Verdana';
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    color: #726659;
+    font-size: 0.875em;
+    border: solid 1px #b3aca7;
+    
+  }
+
+  #subject {
+      height: 50px;
+  }
+
+  textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+  }
+  
+  #submit {
+    width: 502px;
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    font-size: 0.875em;
+    color: #b3aca7;
+    outline:none;
+    cursor: pointer;
+    border: solid 1px #b3aca7;
+    border-top: none;
+  }
+  
+  #submit:hover {
+    color: #e2dedb;
+  }
