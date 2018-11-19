@@ -379,3 +379,102 @@ a {
   #submit:hover {
     color: #e2dedb;
   }
+
+  
+/* FOTTER */
+
+
+.fotter {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+    /* background: #0E6B8960; */
+    list-style: none;
+    height: 100px;
+  
+  }
+  
+  #facebook{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 40%;
+  
+  }
+  
+  #facebook:hover {
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+      filter: drop-shadow( 2px  2px 1px rgba(0,0,0,0.5));
+  
+  }
+  
+  #facebook-svg{
+    display: flex;
+    align-self: center;
+    width:40px;
+    margin-left: 10%;
+  }
+  
+  
+  #location{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 40%;
+  }
+  
+  
+  #location:hover {
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+    filter: drop-shadow( 2px  2px 1px rgba(0,0,0,0.5));
+    /* text-align: center;
+    cursor: pointer;
+    /* border-radius: 50%;
+    border: 2px solid #D8E2DC; */
+    /* color: #3b5998;
+    box-shadow: 0 0 10px #3b5998;
+    background-color:#0E6B8960; */
+  }
+  
+  #email{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 40%;
+  }
+  
+  #email:hover {
+    -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+      filter: drop-shadow( 2px  2px 1px rgba(0,0,0,0.5));
+  }
+  
+  
+  .info {
+    width:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .info p {
+    color: white;
+    text-align: center;
+    display: flex;
+    line-height: 30px;
+  
+  }
+  
